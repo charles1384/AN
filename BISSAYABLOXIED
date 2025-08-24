@@ -70,7 +70,7 @@ local UIRefs = {}
 
 -- Main ScreenGui
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "BloxifiedMainUI"
+screenGui.Name = "KILLUAMainUI"
 screenGui.Parent = PlayerGui
 screenGui.ResetOnSpawn = false
 screenGui.IgnoreGuiInset = true
@@ -112,7 +112,7 @@ local header = Instance.new("TextLabel")
 header.Size = UDim2.new(1, 0, 0, 32)
 header.Position = UDim2.new(0, 0, 0, 0)
 header.BackgroundTransparency = 1
-header.Text = "BLOXIFIED"
+header.Text = "KILLUAH"
 header.TextColor3 = HEADER_COLOR
 header.Font = CLASSY_FONT
 header.TextSize = 22
@@ -1012,7 +1012,7 @@ local logoText = Instance.new("TextLabel")
 logoText.Size = UDim2.new(0, 80, 0, 30)
 logoText.Position = UDim2.new(0, 20, 0.5, -15)
 logoText.BackgroundTransparency = 1
-logoText.Text = "BLOXIFIED"
+logoText.Text = "KILLUA"
 logoText.TextColor3 = Color3.fromRGB(255,255,255)
 logoText.Font = Enum.Font.GothamBold
 logoText.TextSize = 14
