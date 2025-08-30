@@ -1,10 +1,10 @@
--- Rayfield UI Loader by Kuni (Organized Tabs)
+-- Rayfield UI Loader by Killuah (Organized Tabs)
 
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 --// Main Window
 local Window = Rayfield:CreateWindow({
-    Name = "Script Loader by Kuni",
+    Name = "Script Loader by Killuah",
     LoadingTitle = "Grow A Garden",
     LoadingSubtitle = "Converted from Yawi Library",
     KeySystem = false,
@@ -144,7 +144,7 @@ end
 -- Pet Randomizer (Keyless)
 local function Run_PetRandomizer()
     -- Pet Randomizer Rayfield UI
-    -- Made by Kuni
+    -- Made by Killuah
 
     -- ✅ Dependencies
     local Players = game:GetService("Players")
@@ -236,7 +236,7 @@ local function Run_PetRandomizer()
     -- ✅ Rayfield Setup
     local RF = Rayfield or loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
     local Window = RF:CreateWindow({
-        Name = "Pet Randomizer by Kuni",
+        Name = "Pet Randomizer by Killuah",
         LoadingTitle = "Grow A Garden",
         LoadingSubtitle = "Pet ESP + Randomizer",
         KeySystem = false,
@@ -293,7 +293,7 @@ local function Run_PetRandomizer()
     -- Footer info
     RF:Notify({
         Title = "Pet Randomizer Loaded",
-        Content = "Made by Kuni | TikTok: @yawiyawiyawiz1",
+        Content = "Made by Killuah | TikTok: @killuarah",
         Duration = 6,
     })
 end
@@ -466,18 +466,18 @@ local function Run_PetWeightChanger()
     InfoTab:CreateLabel("Tiktok: @yawiyawiyawiz")
 end
 
--- Kuni Hub X (FullFeaturesObsa)
-local function Run_KuniHubX()
-    -- 🌸 Kuni Hub X GUI (Rayfield)
+-- Killuah Script X (FullFeaturesObsa)
+local function Run_KilluahScriptX()
+    -- 🌸 Killuah Hub X GUI (Rayfield)
     local Players = game:GetService("Players")
     local player = Players.LocalPlayer
 
     local RF = Rayfield or loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
     local Window = RF:CreateWindow({
-        Name = "Kuni Hub X",
-        LoadingTitle = "Kuni Hub X",
-        LoadingSubtitle = "by Kuni"
+        Name = "Killuah Hub X",
+        LoadingTitle = "Killuah Hub X",
+        LoadingSubtitle = "by Killuah"
     })
 
     local MainTab = Window:CreateTab("Main")
@@ -510,7 +510,7 @@ function Run_PetAgeChanger()
     local character = player.Character or player.CharacterAdded:Wait()
 
     local screenGui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
-    screenGui.Name = "KuniPetAgeLeveller"
+    screenGui.Name = "KilluahPetAgeLeveller"
     screenGui.ResetOnSpawn = false
     screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -668,7 +668,7 @@ function Run_PetMutationFinder()
     local Window = RF:CreateWindow({
         Name = "Pet Mutation Finder v2",
         LoadingTitle = "Pet Mutation Finder",
-        LoadingSubtitle = "by Kuni",
+        LoadingSubtitle = "by Killuah",
         ConfigurationSaving = {Enabled = false},
         Discord = {Enabled = false}
     })
@@ -765,7 +765,7 @@ function Run_PetMutationFinder()
         end
     })
 
-    CreditsTab:CreateLabel("Made by Kuni")
+    CreditsTab:CreateLabel("Made by Killuah")
     CreditsTab:CreateLabel("TikTok: @yawiyawiyawiz1")
 end
 
@@ -1102,7 +1102,7 @@ PetsTab:CreateButton({ Name = "Pet Randomizer (Keyless)", Callback = Run_PetRand
 PetsTab:CreateButton({ Name = "Pet Weight Changer (Keyless)", Callback = Run_PetWeightChanger })
 
 --// Script Hubs
-HubsTab:CreateButton({ Name = "Kuni Hub X (Keyless)", Callback = Run_KuniHubX }) -- embedded
+HubsTab:CreateButton({ Name = "KilluahScript X (Keyless)", Callback = Run_KilluahScriptX }) -- embedded
 createRemoteButton(HubsTab, "Project Reverse (Keyless)", "https://raw.githubusercontent.com/veryimportantrr/x/refs/heads/main/gag_visual.lua") -- remote
 createRemoteButton(HubsTab, "Speed Hub X (Keyless)", "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua") -- remote
 createRemoteButton(HubsTab, "Nat Hub Loader (Key)", "https://get.nathub.xyz/loader") -- remote
