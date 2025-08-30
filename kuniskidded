@@ -6,7 +6,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
     Name = "Script Loader by Killuah",
     LoadingTitle = "Grow A Garden",
-    LoadingSubtitle = "Converted from Yawi Library",
+    LoadingSubtitle = "Converted from KILLUAH Library",
     KeySystem = false,
 })
 
@@ -312,7 +312,7 @@ local function Run_PetWeightChanger()
     local Window = RF:CreateWindow({
         Name = "Pet Weight Changer V1",
         LoadingTitle = "Pet Weight Changer",
-        LoadingSubtitle = "by yawiyawiyawiz",
+        LoadingSubtitle = "by killuarah",
         ConfigurationSaving = { Enabled = false },
         Discord = { Enabled = false },
         KeySystem = false
@@ -463,7 +463,7 @@ local function Run_PetWeightChanger()
         end
     end)
 
-    InfoTab:CreateLabel("Tiktok: @yawiyawiyawiz")
+    InfoTab:CreateLabel("Tiktok: @Killuarah")
 end
 
 -- Killuah Script X (FullFeaturesObsa)
@@ -578,7 +578,7 @@ function Run_PetAgeChanger()
     addStroke.Transparency = 0.5
 
     local footer = Instance.new("TextLabel", frame)
-    footer.Text = "Tiktok: @yawiyawiyawiz1"
+    footer.Text = "Tiktok: @Killuarah"
     footer.Font = Enum.Font.FredokaOne
     footer.TextSize = 13
     footer.TextColor3 = Color3.fromRGB(0, 200, 255)
@@ -766,7 +766,7 @@ function Run_PetMutationFinder()
     })
 
     CreditsTab:CreateLabel("Made by Killuah")
-    CreditsTab:CreateLabel("TikTok: @yawiyawiyawiz1")
+    CreditsTab:CreateLabel("TikTok: @Killuarah")
 end
 
 -- Pet Duplicator
@@ -782,7 +782,7 @@ function Run_PetDuplicator()
     local Window = RF:CreateWindow({
         Name = "Pet Duplicator V1",
         LoadingTitle = "Pet Duplicator",
-        LoadingSubtitle = "by yawiyawiyawiz1",
+        LoadingSubtitle = "by @Killuarah",
         ConfigurationSaving = {
             Enabled = false,
             FolderName = nil,
@@ -876,7 +876,7 @@ function Run_PetDuplicator()
         end,
     })
 
-    InfoTab:CreateLabel("Tiktok: @yawiyawiyawiz1")
+    InfoTab:CreateLabel("Tiktok: @Killuarah")
 end
 
 -- Duplicate Tag Remover (tagremover)
@@ -1048,7 +1048,7 @@ local function Run_TagRemover()
     footer.Font = Enum.Font.Gotham
     footer.TextSize = 10
     footer.TextColor3 = Color3.fromRGB(0, 200, 255)
-    footer.Text = "✨ TikTok: @yawiyawiyawiz 🐾"
+    footer.Text = "✨ TikTok: @killuarah 🐾"
     footer.TextXAlignment = Enum.TextXAlignment.Center
     footer.TextYAlignment = Enum.TextYAlignment.Center
 
